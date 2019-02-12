@@ -16,7 +16,7 @@ attr_accessor :id, :name, :type, :db, :hp
 
  def self.find(num, db)
    pokemon = db.execute("SELECT * FROM pokemon WHERE id = ?", num).flatten
-   Pokemon.new(id: pokemon[0], name: pokemon[1], type: pokemon[2], db: db)
+   Pokemon.new(id: pokemon[0], name: pokemon[1], type: pokemon[2], db: db, hp: hp)
  end
 
  def alter_hp(hp, db)
