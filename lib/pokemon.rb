@@ -20,7 +20,7 @@ attr_accessor :id, :name, :type, :db, :hp
  end
 
  def alter_hp(hp, db)
-
+  "UPDATE pokemon SET hp WHERE hp = 60;"
  end
 
 end
