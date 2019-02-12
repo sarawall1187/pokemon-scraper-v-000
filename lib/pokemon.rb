@@ -21,5 +21,5 @@ attr_accessor :id, :name, :type, :db, :hp
 
  # def alter_hp
  # end
- 
+
 end
