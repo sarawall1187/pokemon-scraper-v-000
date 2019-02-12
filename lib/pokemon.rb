@@ -8,6 +8,7 @@ attr_accessor :id, :name, :type, :db, :hp
     @name = name
     @type = type
     @db = db
+    @hp = hp
   end
 
   def self.save(name, type, db)
